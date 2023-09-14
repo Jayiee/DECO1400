@@ -1,0 +1,44 @@
+//https://www.w3schools.com/howto/howto_js_accordion.asp
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+ 
+function myFunction() {
+  alert("You have successfully added the item! ;)");
+}
+
+function triditionalPizzasFunction() {
+  document.getElementById("triditionalPizzas").style.display = "block";
+}
+
+function premiumPizzasFunction() {
+  document.getElementById("premiumPizzas").style.display = "block";
+}
+
+function veganPizzasFunction() {
+  document.getElementById("veganRange").style.display = "block";
+}
+
+function checkoutFunction(){
+  document.getElementById("orderDetails").innerHTML = "1 MEGA MEATLOVERS MINI Classic BBQ Souce 16.00$";
+}
+
+document.getElementById("triditionalPizzas").style.display = "none";
+document.getElementById("veganRange").style.display = "none";
+
+function submitReview(){
+  alert("You have successfully submit the review! Thankyou! ;)");
+}
+
+

@@ -1,0 +1,404 @@
+body 
+	{
+        width:100%;
+        height:100%;
+        position:relative;
+        background-image: url(../images/it/check-background1.JPG);
+        background-repeat: no-repeat; 
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+	}
+
+#textMenu
+	{
+		width:100%;
+		border-collapse:collapse;
+        background-color: rgba(50,50,51,1);
+        color: rgba(214,214,214,1);
+        font-size: 15px;
+	}
+
+#textMenu td
+	{
+		text-align: center;
+        width:9.09%;
+	}
+
+#iconMenu
+    {
+        width:100%;
+		border-collapse:collapse;
+        background-color: rgba(214,214,214,0.6);
+    }
+
+#iconMenu td
+    {
+        text-align: center;
+        width:9.09%;
+    }
+
+#iconMenu td:hover 
+    {
+        transform: scale(1.2);
+        transition: all .5s;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+a:visited
+    {
+        color: rgba(214,214,214,1);
+    }
+a:hover
+    {
+        color:rgba(155,155,155,1);
+    }
+
+
+    /*===== TITLE ====================================*/
+
+#title
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+        background-color: #C66F09;
+    }
+
+#pageTitle
+    {
+        color:white;	
+        font-size:32px;
+        padding:5px 30px;
+    }
+
+    /*===== MAIN PAGE ====================================*/
+
+
+.slide:hover
+    {
+        transform: scale(1.05);
+        transition: all .8s;
+    }
+
+#mainSection
+    {
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        height:850px;
+        border-radius:80px;
+    }
+
+#mainSection p
+    {
+        color: white;
+        padding-left:30%;
+        width:580px;
+        font-size: 27px;
+        text-shadow: 3px 3px rgba(0,0,0,0.25) ;
+    }
+
+#mainSection h3
+    {
+        color: white;
+        padding-left:30%;
+        width:550px;
+        font-size: 27px;
+        text-shadow: 3px 3px rgba(0,0,0,0.25) ;
+    }
+
+* 
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+body 
+    {
+        background-color: #ccc;
+    }
+
+.slide 
+    {
+        position: relative;
+        margin: 20px auto;
+        width: 1000px;
+        height: 600px;
+        text-align: center;
+        font-family: Arial;
+        color: #fff;
+        overflow: hidden;
+    }
+
+.slide ul 
+    {
+        margin: 10px 0;
+        padding: 0;
+        width: calc(1000px * 3);
+        transition: all .5s;
+    }
+
+.slide li 
+    {
+        float: left;
+        width: 1000px;
+        height: 600px;
+        list-style: none;
+        line-height: 500px;
+        font-size: 50px;
+    }
+
+.slide li:nth-child(1) 
+    {
+        background-image: url(../images/side&chickenPage/main1.jpg);
+        background-size: cover;
+    }
+
+.slide li:nth-child(2) 
+    {
+        background-image: url(../images/side&chickenPage/main2.jpeg);
+        background-size: cover;
+    }
+
+.slide li:nth-child(3) 
+    {
+        background-image: url(../images/side&chickenPage/main3.webp);
+        background-size: cover;
+    }
+
+.slide input[name="button"] 
+    {
+        display: none;
+
+    }
+
+.slide label[for^="button"] 
+    {
+        position: absolute;
+        top: 580px;
+        width: 10px;
+        height: 10px;
+        margin: 0 10px;
+        line-height: 20px;
+        color: #fff;
+        background-color: #fff;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: .3s;
+    }
+
+.slide label[for="button1"] 
+    {
+        left: 47%;
+    }
+
+.slide label[for="button2"] 
+    {
+        left: 50%;
+    }
+
+.slide label[for="button3"] 
+    {
+        left: 53%;
+    }
+
+#button1:checked ~ul 
+    {
+        margin-left: 0;
+    }
+
+#button2:checked ~ul 
+    {
+        margin-left: -1000px;
+    }
+
+#button3:checked ~ul 
+    {
+        margin-left: -2000px;
+    }
+
+#button1:checked ~ label[for="button1"] 
+    {
+        background: rgb(255,80,0);
+    }
+
+#button2:checked ~ label[for="button2"] 
+    {
+        background: rgb(255,80,0);
+    }
+
+#button3:checked ~ label[for="button3"] 
+    {
+        background: rgb(255,80,0);
+    }
+
+    /*===== PRODUCTS ====================================*/
+    
+.img_list img
+    {
+        width:90%;
+    }
+
+#sides_chickensTable
+    {
+        margin-left: 11%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+#products
+    {
+        background-color: rgba(255,255,255,0.8);
+        border-radius:20px;
+        height:500px;
+        width: 88%;
+        
+    }
+
+#sides_chickens_frame table td:hover 
+    {
+        transform: scale(1.1);
+        transition: all .5s;
+    }
+
+#sides_chickens_frame table img:hover 
+    {
+        transform: scale(1.2);
+    }
+
+#products img
+    {
+        margin-top:25px;
+        transition: all .3s;
+        border-radius:10px;
+    }
+
+#products p
+    {
+        text-align: left;
+        padding-left:10px;
+    }
+
+#sides_chickensTable td
+    {
+        width:380px;
+        height:600px;
+    }
+
+#side_chickenInfo
+    {
+        width:95%;
+        height:40%;
+        margin-top:-10px;
+        margin-left:10px;
+        color:black;
+    }
+#side_chickenInfo h3
+    {
+        text-align: left;
+        margin-left:10px;
+    }
+
+#side_chickenName
+    {
+        margin-top: 20px;
+        font-style: Bold;
+        font-size: 23px;
+    }
+
+#side_chickenEnergy
+    {
+        margin-top: -1px;
+        font-style: italic;
+        font-size: 20px;
+    }
+
+#side_chickenDescription
+    {
+        margin-top: 20px;
+        font-size:18px;
+    }
+
+#side_chickenButton
+    {
+        margin-left:15%;
+
+    }
+
+#quantity
+	{
+        text-align: center;
+		background-color:rgba(169,169,169,0.8);
+        border-color:rgba(169,169,169,0.8);
+        height:35px;
+        width: 25%;
+		border-radius:20px;
+        color:black;
+	}
+
+#add
+    {
+        margin-left: 30px;
+        text-align: center;
+		background-color:rgba(233,188,28);
+        border-color:rgba(233,188,28);
+        height:40px;
+        width: 35%;
+		border-radius:20px;
+        color:white;
+        font-size: 18px;
+    }
+
+table input:hover 
+    {
+        transform: scale(1.3);
+        transition: all .3s;
+    }
+
+table button:hover
+    {
+        transform: scale(1.3);
+        transition: all .3s;
+    }
+
+/*===== FOOTER ====================================*/
+#footer
+	{
+		margin-top:20px;
+        border-top:solid white 1px;
+        margin-left: 50px;
+        margin-right: 50px;
+	}
+
+#footer table
+	{
+		width:100%;
+		color:white;
+		text-align:left;
+		padding-left: 100px;
+		padding-top:18px;
+	}
+
+#footer th
+	{
+		font-size: 15pt;
+	}
+
+#footer th,td
+	{
+		width:10%;
+	}
+
+#footMedia
+    {
+        text-align: center;
+    }
+
+#footer p
+	{
+        color:white;
+		text-align:center;
+	}
+
