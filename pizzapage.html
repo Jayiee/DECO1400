@@ -1,0 +1,328 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Pizza Page</title>
+		<link rel="stylesheet" href="css/pizzapage.css">
+		<meta name="author" content="Jiaye Yuan">
+		<meta name="robots" content="index, follow">
+		<script defer src = "js/script.js"></script>
+	</head>
+
+    <body>
+		<div id = "headerContainer">
+            <table id = "textMenu">
+				<tr>
+					<td></td>
+					<td></td>
+					<td><a href = "index.html"><img src="images/icon/top_pizza.webp" width=29px height=29px alt="Logo"></a></td>
+					<td><a href = "pizzaHomepage.html">Pizzas</a></td>
+					<td><a href = "side&chickenpage.html">Sides</a></td>
+					<td><a href = "side&chickenpage.html">Chickens</a></td>
+					<td><a href = "drink&dessertpage.html">Drinks</a></td>
+					<td><a href = "drink&dessertpage.html">Desserts</a></td>
+					<td><a href = "checkOutpage.html"><img src="images/icon/top_cart.png" width=23px height=23px alt="Cart"></a></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<table id = "iconMenu">
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><a href = "pizzaHomepage.html"><img src="images/icon/icon_pizzas.PNG" width=45px></a></td>
+					<td><a href = "side&chickenpage.html"><img src="images/icon/icon_chips.PNG" width=59px></a></td>
+					<td><a href = "side&chickenpage.html"><img src="images/icon/icon_chickens.PNG" width=59px></a></td>
+					<td><a href = "drink&dessertpage.html"><img src="images/icon/icon_drinks.PNG" width=59px></a></td>
+					<td><a href = "drink&dessertpage.html"><img src="images/icon/icon_cakes.PNG" width=52px></a></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+        </div>
+
+		<div id="mySidenav" class="sidenav">
+			<button onclick="premiumPizzasFunction()" id="sidenav1"><a href="#title1">Premium</a></button>
+			<button onclick="triditionalPizzasFunction()" id="sidenav2"><a href="#title2">Traditional</a></button>
+			<button onclick="veganPizzasFunction()" id="sidenav3"><a href="#title3">Vegan</a></button>
+		</div>
+
+		<div id = "title1">
+			<p id="pageTitle">Premium Pizzas</p>
+		</div>
+
+		<div class="img_list">
+			<div id = "premiumPizzas">
+			<table id = "premiumTable">
+				<tr>
+					<td>
+						<div>
+							<a href = "pizzaSelectpage.html"><img src="images/pizzaPage/premium/Mega_Meatlovers.webp" alt="Mega_Meatlovers"></a>
+							<div id = "pizzaInfo">
+							<p id = "pizzaName">Mega Meatlovers</p>
+							<p id = "pizzaEnergy">5592kJ^</p>
+							<p id = "pizzaDescription">Ground beef, crispy rasher bacon, mushroom, pepperoni, Italian sausage, fresh baby spinach, smoked...</p>
+							</div>
+						</div>
+					</td>
+					<td>
+						<div>
+							<img src="images/pizzaPage/premium/BBQ_Chicken&Rasher_Bacon.webp" alt="BBQ_Chicken&Rasher_Bacon">
+							<div id = "pizzaInfo">
+							<p id = "pizzaName">BBQ Chicken & Rasher Bacon</p>
+							<p id = "pizzaEnergy">5072kJ^</p>
+							<p id = "pizzaDescription">The perfect combination of succulent chicken pieces, crispy rasher bacon & slices...</p>
+							</div>
+						</div>
+					</td>
+					<td>
+						<div>
+							<img src="images/pizzaPage/premium/PeriPeri_Chicken.webp" alt="PeriPeri_Chicken">
+							<div id = "pizzaInfo">
+							<p id = "pizzaName">Peri Peri Chicken</p>
+							<p id = "pizzaEnergy">4752kJ^</p>
+							<p id = "pizzaDescription">A flavoursome pairing of seasoned chicken pieces, Italian cherry tomatoes...</p>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div>
+							<img src="images/pizzaPage/premium/Chicken&Camembert.webp" alt="Chicken&Camembert">
+							<div id = "pizzaInfo">
+							<p id = "pizzaName">Chicken & Camembert</p>
+							<p id = "pizzaEnergy">5848kJ^</p>
+							<p id = "pizzaDescription">Succulent chicken, melted camembert, crispy rasher bacon, Italian cherry tomatoes, baby spinac...</p>
+							</div>
+						</div>
+					</td>
+					<td>
+						<div>
+							<img src="images/pizzaPage/premium/Loaded_Supreme.webp" alt="Loaded_Supreme">
+							<div id = "pizzaInfo">
+							<p id = "pizzaName">Loaded Supreme</p>
+							<p id = "pizzaEnergy">5440kJ^</p>
+							<p id = "pizzaDescription">Ground beef, crispy rasher bacon, mushroom, pepperoni, Italian sausage, fresh baby spinach, smoked...</p>
+							</div>
+						</div>
+					</td>
+					<td>
+						<div>
+							<img src="images/pizzaPage/premium/Garlic_Prawn.webp" alt="Garlic_Prawn">
+							<div id = "pizzaInfo">
+							<p id = "pizzaName">Garlic Prawn</p>
+							<p id = "pizzaEnergy">4320kJ^</p>
+							<p id = "pizzaDescription">Juicy prawns with fresh baby spinach & diced tomato on a crème fraiche & zesty garlic sauce base, topped with...</p>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+			</div>
+		</div>
+
+		<div id = "title2">
+			<p id="pageTitle">Traditional Pizzas</p>
+		</div>
+
+		<div class="img_list">
+			<div id = "triditionalPizzas">
+				<table id = "triditionalTable">
+					<tr>
+						<td>
+							<div>
+								<img src="images/pizzaPage/traditional/bbq_meatlovers.webp" alt="bbq_meatlovers">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">BBQ Meatlovers</p>
+								<p id = "pizzaEnergy">5128kJ^</p>
+								<p id = "pizzaDescription">Crispy rasher bacon, pepperoni pieces, seasoned ground beef,...</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div>
+								<img src="images/pizzaPage/traditional/double_bacon_cheeseburger.webp" alt="double_bacon_cheeseburger">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Double Bacon Cheeseburger</p>
+								<p id = "pizzaEnergy">5512kJ^</p>
+								<p id = "pizzaDescription">Generously topped with crispy rasher bacon & crumbled beef on a BBQ sauce base, finished with...</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div>
+								<img src="images/pizzaPage/traditional/fire_breather.webp" alt="fire_breather">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Fire Breather</p>
+								<p id = "pizzaEnergy">4512kJ^</p>
+								<p id = "pizzaDescription">Domino's pepperoni, smokey leg ham, seasoned ground beef, fiery...</p>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div>
+								<img src="images/pizzaPage/traditional/spicy_peppy_paneer.webp" alt="spicy_peppy_paneer">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Spicy Peppy Paneer</p>
+								<p id = "pizzaEnergy">4896kJ^</p>
+								<p id = "pizzaDescription">Diced paneer cheese, cherry tomatoes, sliced red onion, capsicum &...</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div>
+								<img src="images/pizzaPage/traditional/supreme.webp" alt="supreme">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Supreme</p>
+								<p id = "pizzaEnergy">4936kJ^</p>
+								<p id = "pizzaDescription">Crispy rasher bacon, pepperoni & Italian sausage, topped with fresh...</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div>
+								<img src="images/pizzaPage/traditional/vegorama.webp" alt="vegorama">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Vegorama</p>
+								<p id = "pizzaEnergy">4120kJ^</p>
+								<p id = "pizzaDescription">Mushrooms, diced tomato, capsicum, baby spinach & slices of red onion, toppe...</p>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div id = "title3">
+			<p id="pageTitle">Vegan Range</p>
+		</div>
+
+		<div class="img_list">
+
+			<div id = "veganRange">
+				
+				<table id = "veganRangeTable">
+					<tr>
+						<td>
+							<div>
+								<img src="images/pizzaPage/vegan_range/vegan_double_beef&onion.webp" alt="vegan_double_beef&onion">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Vegan Double Beef & Onion</p>
+								<p id = "pizzaEnergy">5432kJ^</p>
+								<p id = "pizzaDescription">Vegan cheese, plant-based beef & red onion on a BBQ sauce base</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div>
+								<img src="images/pizzaPage/vegan_range/vegan_fire_breather.webp" alt="vegan_fire_breather">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Vegan Fire Breather</p>
+								<p id = "pizzaEnergy">4776kJ^</p>
+								<p id = "pizzaDescription">Vegan cheese, plant-based beef, fiery jalapenos, diced tomato & sliced red onion with a...</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div>
+								<img src="images/pizzaPage/vegan_range/vegan_godfather.webp" alt="vegan_godfather">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Vegan God father</p>
+								<p id = "pizzaEnergy">5128kJ^</p>
+								<p id = "pizzaDescription">Vegan cheese, plant-based beef, vibrant capsicum, diced tomato &...</p>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div>
+								<img src="images/pizzaPage/vegan_range/vegan_margherita.webp" alt="vegan_margherita">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Vegan Margherita</p>
+								<p id = "pizzaEnergy">4144kJ^</p>
+								<p id = "pizzaDescription">Vegan cheese & tomato, topped with oregano</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div>
+								<img src="images/pizzaPage/vegan_range/vegan_spicy_veg_supreme.webp" alt="vegan_spicy_veg_supreme">
+								<div id = "pizzaInfo">
+								<p id = "pizzaName">Vegan Spicy Veg Supreme</p>
+								<p id = "pizzaEnergy">4744kJ^</p>
+								<p id = "pizzaDescription">Vegan cheese, diced tomato, mushroom, capsicum, spinach, red...</p>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+
+		<!-- "footer" div -->
+		<div id="footer">
+			<table>
+				<tr>
+					<th> PIZZA </th>
+					<th> CONTACT US </th>
+					<th> HELP </th>
+					<th> CORPORATE </th>
+				</tr>
+			
+				<tr>
+					<td> Order Online </td>
+					<td> Call xxxxxxx </td>
+					<td> Site Map </td>
+					<td> About Us </td>
+				</tr>
+			
+				<tr>
+					<td> Our Menu </td>
+					<td> Contact Details </td>
+					<td> &nbsp; </td>
+					<td> Franchising </td>
+				</tr>
+				<tr>
+					<td> Nutritional Information </td>
+					<td> Feedback </td>
+					<td> &nbsp; </td>
+					<td> Investors Site </td>
+				</tr>
+				<tr>
+					<td> Vouchers </td>
+					<td>  </td>
+					<td>  </td>
+					<td>  </td>
+				</tr>
+				<tr>
+					<td> &nbsp; </td>
+					<td> &nbsp; </td>
+					<td> &nbsp; </td>
+					<td> &nbsp; </td>
+				</tr>
+
+			</table>
+
+			<div id = "footMedia">
+				<img src="images/icon/facebook.png" width="24" height="24" alt="Facebook">
+				<img src="images/icon/instagram.png" width="24" height="24" alt="Facebook">
+				<img src="images/icon/youtube.png" width="24" height="24" alt="Facebook">
+			</div>
+			<p>PRIVACY | ONLINE TERMS AND CONDITIONS</p>
+<!-- end "footer" div -->
+		</div>
+    </body>
+</html>
+		
